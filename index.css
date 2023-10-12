@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 7.1vh;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav .ul1{
+    height: 100%;
+    width: 15%;
+    margin-left: 1%;
+    display: flex;
+}
+nav .ul2{
+    height: 7.1vh;
+    width: 25%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+    margin-top: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    height: 38px;
+    width: auto;
+    font-size:22px;
+    cursor: pointer;
+}
+.li1{
+    width: 200px;
+    padding-left: 22px;
+}
+.li1:hover{
+    background-color: lightgrey;
+}
+.li2:hover{
+    background-color: lightgrey;
+}
+.li3:hover{
+    background-color: lightgrey;
+}
+.li4:hover{
+    background-color: lightgrey;
+}
+.li2,.li3,.li4{
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ======================================== */
+
+.div1{
+    height: 100vh;
+    width: 95%;
+    margin: 0 auto;
+    background-image: url(./images/architect.jpg);
+    background-size:100% 110%;
+    background-position: 0 -70px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+}
+.div1 h1{
+    font-size: 40px;
+    z-index: 10;
+    padding-right: 50px;
+}
+.div1 p{
+    color: white;
+    font-size: 37px;
+    margin-top: -400px;
+    padding-left: 180px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ======================================== */
+
+.div2{
+    height: 21vh;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.div2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 23px;
+}
+
+/* ======================================== */
+
+.div3{
+    height: 65.5vh;
+    width: 95%;
+    margin: 0 auto;
+}
+.internal,.internal1{
+    height: 48%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.internal1{
+    padding-top: 1.35%;
+}
+.card19{
+    height: 100%;
+    width: 24%;
+    background-size: 100% 100%;
+}
+.div3 .inner1,.inner2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.div3 p{
+    left: 25px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.div3 .inner1{
+    width: 150px;
+}
+.div3 .inner2{
+    width: 120px;
+}
+.card11{
+    background-image: url(./images/house1.jpg);
+}
+.card12{
+    background-image: url(./images/house2.jpg);
+}
+.card13{
+    background-image: url(./images/house3.jpg);
+}
+.card14{
+    background-image: url(./images/house4.jpg);
+}
+.card15{
+    background-image: url(./images/house2.jpg);
+}
+.card16{
+    background-image: url(./images/house1.jpg);
+}
+.card17{
+    background-image: url(./images/house4.jpg);
+}
+.card18{
+    background-image: url(./images/house3.jpg);
+}
+
+/* ======================================== */
+
+.div4{
+    height: 33vh;
+    width: 95%;
+    margin: 0 auto;
+}
+.div4 .sec1,.sec2{
+    height: 50%;
+    width: 100%;
+}
+.div4 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17.3px;
+    line-height: 22px;
+    padding-top: 30px;
+}
+.div4 h5{
+    padding-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+/* ======================================== */
+
+.div5{
+    height: 61vh;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.card1,.card2,.card3,.card4{
+    height: 100%;
+    width: 24%;
+}
+.upper{
+    height: 52%;
+    width: 100%;
+}
+.lower{
+    height: 48%;
+    width: 100%;
+}
+.div5 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: black;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.div5 h6{
+    color: grey;
+    font-size: 16px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div5 p{
+    line-height: 22px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16.5px;
+}
+.div5 button{
+    height: 39px;
+    width: 100%;
+    margin-top: 13px;
+    background-color:whitesmoke;
+    color: black;
+    border: none;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.div5 button:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.div5 img{
+    height: 100%;
+    width: 100%;
+}
+
+/* ======================================== */
+
+#contact{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contactMain{
+    height: 50vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contactMain input{
+    height: 40px;
+    font-size: 17px;
+    border: 1px solid lightgrey;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.contactMain input:focus{
+    border: 1px solid black;
+}
+.contactMain button{
+    height: 44px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+.contactMain button:hover{
+    background-color: lightgrey;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+/* ========================================== */
+
+.div7{
+    height: 110vh;
+    width: 95%;
+    margin: 0px auto;
+}
+.div7 img{
+    height: 100%;
+    width: 100%;
+}
+
+/* ========================================== */
+
+footer{
+    height: 11.5vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+     display: flex;
+    align-items: center;
+    justify-content:center;
+}
+footer p{
+    top: 4vh;
+    font-size: 19px;
+}
+footer a{
+    color: white;
+    letter-spacing:inherit;
+}
+footer a:visited{
+    color:white;
+}
+footer a:hover{
+    color: green;
+}
+
+/* ======================================== */
+/* ======================================== */
+/* ======================================== */
+/* ======================================== */
+/* ======================================== */

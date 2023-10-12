@@ -1,0 +1,267 @@
+@media screen and (min-width: 280px) and (max-width: 320px) {
+    p {
+        font-size: 12px !important;
+    }
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 640px) {
+    .li5 {
+        display: none;
+    }
+
+    nav {
+        box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+        height: 53px;
+    }
+
+    nav .ul1 {
+        height: 100%;
+        width: 35%;
+    }
+
+    .div1 {
+        height: 303px;
+        background-size: 100% 140%;
+        width: 100%;
+        margin-top: 1px;
+    }
+
+    .div1 h1 {
+        margin-left: 40px;
+    }
+
+    .div1 p {
+        display: none;
+    }
+
+    /* =================================================== */
+
+    .div2 {
+        width: 87%;
+        height: 25vh;
+    }
+
+    hr {
+        background-color: whitesmoke;
+        margin-top: -20px;
+    }
+
+    .div2 h1 {
+        margin-top: 35px;
+    }
+
+    /* ================================================ */
+
+    .div3 {
+        position: relative;
+        width: 87%;
+        height: 360vh;
+    }
+
+    .internal {
+        position: absolute;
+        height: 50%;
+        width: 100%;
+    }
+
+    .div3 .card11 {
+        position: absolute;
+        height: 42vh;
+        width: 100%;
+    }
+
+    .div3 .card12 {
+        position: absolute;
+        height: 42vh;
+        top: 45vh;
+        width: 100%;
+    }
+
+    .card13 {
+        position: absolute;
+        height: 42vh;
+        top: 90vh;
+        width: 100%;
+    }
+
+    .card14 {
+        position: absolute;
+        height: 42vh;
+        top: 135vh;
+        width: 100%;
+    }
+
+    .div3 .internal1 {
+        position: absolute;
+        height: 50%;
+        top: 50%;
+        width: 100%;
+    }
+
+    .div3 .inner1,
+    .inner2 {
+        position: absolute;
+        font-size: 17px;
+        font-weight: lighter;
+    }
+
+    .card15 {
+        position: absolute;
+        height: 42vh;
+        top: 0;
+        width: 100%;
+    }
+
+    .card16 {
+        position: absolute;
+        height: 42vh;
+        top: 45vh;
+        width: 100%;
+    }
+
+    .card17 {
+        position: absolute;
+        height: 42vh;
+        top: 90vh;
+        width: 100%;
+    }
+
+    .card18 {
+        position: absolute;
+        height: 42vh;
+        top: 135vh;
+        width: 100%;
+    }
+
+    /* ============================================== */
+
+    .div4 {
+        position: relative;
+        height: 63vh;
+        width: 87%;
+    }
+
+    .div4 h5 {
+        position: absolute;
+        font-size: 23px;
+        top: -15px;
+    }
+
+    .div4 hr {
+        margin-top: -140px;
+    }
+
+    .div4 p {
+        position: absolute;
+        font-size: 17px;
+        top: 85px;
+    }
+
+    /* ============================================ */
+
+    .div5 {
+        position: relative;
+        height: 316vh;
+        width: 87%;
+    }
+
+    .div5 .card1 {
+        position: absolute;
+        height: 76vh;
+        width: 100%;
+    }
+
+    .div5 .card2 {
+        position: absolute;
+        height: 79vh;
+        top: 79vh;
+        width: 100%;
+    }
+
+    .div5 .card3 {
+        position: absolute;
+        height: 79vh;
+        bottom: 79vh;
+        width: 100%;
+    }
+
+    .div5 .card4 {
+        position: absolute;
+        height: 79vh;
+        bottom: 0;
+        width: 100%;
+    }
+
+    /* ======================================== */
+
+    #contact {
+        position: relative;
+        height: 77vh;
+        width: 87%;
+        margin: 0 auto;
+    }
+
+    #contact h1 {
+        position: absolute;
+        top: 12vh;
+        left: 0;
+        font-size: 25px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #contact hr {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 22vh;
+    }
+
+    #contact p {
+        position: absolute;
+        top: 21.2vh;
+        left: 0;
+        font-size: 20px;
+    }
+
+    input {
+        position: absolute;
+        width: 95%;
+        top: 27vh;
+        left: 0;
+    }
+
+    .int2 {
+        top: 35.5vh;
+    }
+
+    .int3 {
+        top: 44vh;
+    }
+
+    .int4 {
+        top: 52.5vh;
+    }
+
+    #contact button {
+        position: absolute;
+        top: 63.5vh;
+        left: 0;
+    }
+
+    /* ============================================== */
+
+    .div7 {
+        position: relative;
+        height: 37vh;
+        width: 87%;
+    }
+
+    /* =========================================== */
+
+    footer {
+        position: relative;
+        top: 10px;
+    }
+}

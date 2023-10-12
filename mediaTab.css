@@ -1,0 +1,82 @@
+@media screen and (min-width:640px) and (max-width:992px) {
+    nav .ul1 .li1 {
+        font-size: 20px;
+    }
+
+    .ul1 {
+        width: 22% !important;
+    }
+
+    .ul2 {
+        width: 50% !important;
+    }
+    .div1 {
+        height: 70vh;
+        background-size: 100% 114%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div1 h1 {
+        display: inline;
+        width: 2vw;
+        margin-left: -160px;
+    }
+
+    .div1 p {
+        width: auto;
+        padding-left: 0px;
+        margin-left: 90px;
+        margin-top: -6vh;
+    }
+    .div3 {
+        height: 70vh;
+    }
+
+    .card19 {
+        width: 24%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .div4 {
+        border: 2px solid white;
+    }
+
+    .div4 .sec1 {
+        height: 40%;
+    }
+
+    .div4 h5 {
+        margin-top: -50px;
+    }
+
+    .div4 hr {
+        margin-top: 10px;
+    }
+
+    .div4 .sec2 {
+        height: 60%;
+        font-size: 20px !important;
+    }
+
+    .div5{
+        height: 130vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .div5 .card1,.card2,.card3,.card4{
+        width: 48%;
+        height: 48%;
+    }
+    .div5 h3,h6,p{
+        margin-left: 20px;
+    }
+    .div7 {
+        height: 75vh;
+    }
+
+    footer {
+        height: 9vh;
+    }
+}
